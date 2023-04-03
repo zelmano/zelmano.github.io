@@ -4,10 +4,19 @@ body{
   background-color: #17141d;
   color: white;
   font-family: 'DM Mono', monospace;
+  font-size: 30px;
 }
 
 h1{
+  font-size: 72px;
+  text-align: center;
   background: linear-gradient(90deg,#ff8a00,#e52e71);
-  text-shadow: none;
   background-clip: text;
+  color: transparent;
+}
+
+.full_rectangle{
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(120deg,#ff8a00,#e52e71);
 }
