@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #17141d;
+  color: white;
+  font-family: 'DM Mono', monospace;
+}
+
+h1{
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  background-clip: text;
+}
