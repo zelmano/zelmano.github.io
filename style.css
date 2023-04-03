@@ -7,16 +7,43 @@ body{
   font-size: 30px;
 }
 
-h1{
+h1.fire{
   font-size: 72px;
   text-align: center;
-  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  background: rgb(255,138,0);
+  background: linear-gradient(90deg, rgba(255,138,0,1) 30%, rgba(229,46,113,1) 70%);
   background-clip: text;
   color: transparent;
 }
 
-.full_rectangle{
+h1.normandy{
+  font-size: 72px;
+  text-align: center;
+  background: rgb(210,10,40);
+  background: linear-gradient(90deg, rgba(255,220,0,1) 30%, rgba(210,10,40,1) 70%);
+  background-clip: text;
+  color: transparent;
+}
+
+.full_rectangles{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.firediv{
   width: 200px;
   height: 200px;
-  background: linear-gradient(120deg,#ff8a00,#e52e71);
+  /* background: linear-gradient(120deg,#ff8a00,#e52e71); */
+  background: rgb(255,138,0);
+  background: linear-gradient(120deg, rgba(255,138,0,1) 1%, rgba(229,46,113,1) 99%);
 }
+
+.normandiv{
+  width: 200px;
+  height: 200px;
+  background: rgb(210,10,40);
+  background: linear-gradient(120deg, rgba(255,220,0,1) 1%, rgba(210,10,40,1) 99%);
+}
+ 
